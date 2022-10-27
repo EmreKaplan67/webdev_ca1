@@ -5,3 +5,26 @@
     box-sizing: border-box;
     font-size: 100%;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+.linked_pages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 55px;
+    margin: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid black;
+}
+
+.linked_pages span {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.linked_pages a {
+    text-decoration: none;
+    color: rgba(99, 99, 250, 0.9);
+}
+
