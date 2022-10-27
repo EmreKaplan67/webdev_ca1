@@ -28,3 +28,37 @@
     color: rgba(99, 99, 250, 0.9);
 }
 
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.table p {
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+table th {
+    position: -webkit-sticky; /* For Mozilla*/
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+}
