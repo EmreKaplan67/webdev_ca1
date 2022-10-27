@@ -48,6 +48,7 @@ tr:nth-child(even) {
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
+    flex-wrap: wrap;
 }
 
 .table p {
@@ -61,4 +62,14 @@ table th {
     top: 0;
     z-index: 1;
     background: #fff;
+}
+
+.fa-key.yellow {
+    color: rgb(255, 165, 0);
+    margin-right: 0.4rem;
+}
+
+.fa-key.blue {
+    color: blue;
+    margin-right: 0.4rem;
 }
